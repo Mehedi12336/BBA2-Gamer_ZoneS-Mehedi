@@ -267,7 +267,49 @@ color: #FF42A5;
 
  /* Careers related styles*/
 
-
+.Careers{
+    display: flex;
+    background-color: #F948B2;
+}
+.careers-content{
+    padding-top: 150px;
+    padding-left: 85px;
+    padding-bottom: 85px;
+    
+}
+.careers-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+.careers-description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+} 
+.careers-1 li, .careers-2 li{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.careers-button{
+    border-radius: 48px;
+    background: #FFF;
+    padding: 20px 40px;
+    color: #FF42A5;
+}
+.careers-ul{
+    display: flex;
+    gap: 300px;
+}
+.careers-1{
+    list-style: none;
+}
+.careers-2{
+    text-align: right;
+    list-style: none;
+}
 
  /* logo related style */
 
@@ -275,6 +317,7 @@ color: #FF42A5;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 120px;
    
 }
 .game-logo{
