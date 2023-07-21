@@ -9,6 +9,10 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+main{
+    width: 1920px;
+    height: 600px;
+}
 
 /* header realated style */
 nav{
@@ -21,10 +25,20 @@ nav{
     align-items: center;
     padding: 0 240px;
 }
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+.header-container img{
+    margin-top: 50px;
+
+}
 ul{
     display: flex;
     list-style: none;
     gap: 30px;
+    align-items: center;
 }
 .follow-usbox{
     border-radius: 8px;
@@ -32,7 +46,9 @@ ul{
     width: 250px;
     height: 50px;
     padding: 18px 24px;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 /* banner related style */
@@ -45,11 +61,9 @@ ul{
     width: 50%;
     align-items: center;
     margin-top: 150px;
+    background-image: url('../images/Group\ 14.png');
 }
 
-.banner-img{
-    background: #FFF;
-}
 
 .banner-title{
     color: #0B0223;
@@ -69,6 +83,7 @@ color: #FF42A5;
 
 .gamer{
     display: flex;
+    gap: 300px;
     background:  
 
 }
@@ -87,7 +102,7 @@ color: #FF42A5;
     font-weight: 700;
 }
 .gamer-description{
-    color: calc(#F948B2 0%, #8758F1 100);
+    color: #534C64;
     font-size: 18px;
     font-weight: 400;
 }
@@ -95,6 +110,9 @@ color: #FF42A5;
     border-radius: 48px;
     background:#FF42A5;
     padding: 10px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
 .gamer-end{
     color: #534C64;
@@ -102,6 +120,147 @@ color: #FF42A5;
     font-weight: 700;
 }
 
+/* Online games styles */
 
+.online-game{
+    background: #FFF;
+}
+.online-game-header{
+    padding-top: 120px;
+    text-align: center;
+}
+.online-game-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-game-title > .color{
+   color: #F948B2 ; 
+}
+.online-p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.online-gamer-img{
+    padding: 50px 240px 24px 240px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:24px ;
+}
+.funny-gamer-description{
+    padding: 0 240px 120px 240px;
+    display: flex;
+    gap: 24px;
+}
+.funny-gamer-description p{
+    width: 360px;
+    height: 60px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
 
+/* play instant section */
+
+.play-insistent{
+    display: flex;
+    background: #FFF;
+    padding: 120px 0px 0px 425px;
+    gap: 120px;
+}
+.play-ins-content{
+    width: 350px;
+    text-align: right;
+
+}
+.play-ins-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-ins-title2{
+    color: #F948B2;
+}
+.play-ins-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.play-ins-img{
+    margin-left: 145px;
     
+}
+.play-ins-img-inner{
+    position: relative;
+    bottom: 290px;
+    right: 145px;
+}
+
+ /* play games any where styles*/
+ 
+ .play-games-container{
+    display: flex;
+    padding:  0 240px 120px 240px;
+    gap: 115px;
+    background: #FFF;
+ }
+ .play-games-content{
+    width: 480px;
+    text-align: left, center;
+    margin-top: 150px;
+ }
+ .play-games-title{
+
+    font-size: 48px;
+    font-weight: 700;
+
+ }
+ .playgame-title-style{
+    color: #F948B2;
+ }
+ .play-games-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .play-games-img{
+    margin-right: 135px;
+ }
+ .play-games-img-inner{
+    position: relative;
+    bottom: 240px;
+    left: 530px;
+ }
+
+ /* Careers related styles*/
+
+
+
+ /* logo related style */
+
+.game-logo2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.game-logo{
+    padding: 0 250px;
+}
+.game-logo2 div{
+    display: flex;
+    width: 243px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+
+}
+.game-logo2 div:hover{
+    border: 2px solid tomato;
+    border-radius: 1000px;
+    color: #F948B2;
+}
+
+
